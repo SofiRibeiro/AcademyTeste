@@ -11,6 +11,7 @@ class FeaturedViewController: UIViewController {
     
     let popularMovies = Movie.popularMovies()
     let nowPlayingMovies = Movie.nowPlayingMovies()
+    let upComingMovies = Movie.upcomingMovies()
     
     @IBOutlet var popularCollectionView: UICollectionView!
     @IBOutlet var nowPlayingCollectionView: UICollectionView!
@@ -22,6 +23,7 @@ class FeaturedViewController: UIViewController {
         
         popularCollectionView.dataSource = self
         nowPlayingCollectionView.dataSource = self
+        upcomingCollectionView.dataSource = self
     }
     
     

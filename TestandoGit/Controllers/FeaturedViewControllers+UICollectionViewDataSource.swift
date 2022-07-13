@@ -13,7 +13,10 @@ extension FeaturedViewController: UICollectionViewDataSource {
             return popularMovies.count
         } else if collectionView == nowPlayingCollectionView {
             return nowPlayingMovies.count
-        } else {
+        } else if collectionView == upcomingCollectionView {
+            return upComingMovies.count
+        }
+        else {
             return 0
         }
     }
@@ -38,6 +41,17 @@ extension FeaturedViewController: UICollectionViewDataSource {
         return UICollectionViewCell()
     }
     
+    fileprivate func makeupcomingCell(_ indexPath: IndexPath) -> UICollectionViewCell {
+        if let cell = upcomingCollectionView.dequeueReusableCell(withReuseIdentifier: "upcomingCell", for: indexPath) as? UpcomingCollectionViewCell {
+            cell.titleLabel.text = upComingMovies[indexPath.item].title
+            cell.dateLabel.text = upComingMovies[indexPath.item].releaseDate
+            cell.imageup.image = UIImage(named: upComingMovies[indexPath.item].poster)
+            return cell
+            
+        }
+        return UICollectionViewCell()
+    }
+    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         if collectionView == popularCollectionView {
@@ -45,6 +59,9 @@ extension FeaturedViewController: UICollectionViewDataSource {
             
         } else if collectionView == nowPlayingCollectionView {
             return makenowPlayingCell(indexPath)
+            
+        } else if collectionView == upcomingCollectionView {
+            return makeupcomingCell (indexPath)
             
         }
         
