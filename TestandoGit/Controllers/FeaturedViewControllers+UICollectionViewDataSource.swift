@@ -33,7 +33,7 @@ extension FeaturedViewController: UICollectionViewDataSource {
     fileprivate func makenowPlayingCell(_ indexPath: IndexPath) -> UICollectionViewCell {
         if let cell = nowPlayingCollectionView.dequeueReusableCell(withReuseIdentifier: "nowPlayingCell", for: indexPath) as? NowPlayingCollectionViewCell {
             cell.titleLabel.text = nowPlayingMovies[indexPath.item].title
-            cell.dateLabel.text = nowPlayingMovies[indexPath.item].releaseDate
+            cell.dateLabel.text = String(nowPlayingMovies[indexPath.item].releaseDate.prefix(4))
             cell.imageView.image = UIImage(named: nowPlayingMovies[indexPath.item].poster)
             return cell
             
@@ -44,7 +44,7 @@ extension FeaturedViewController: UICollectionViewDataSource {
     fileprivate func makeupcomingCell(_ indexPath: IndexPath) -> UICollectionViewCell {
         if let cell = upcomingCollectionView.dequeueReusableCell(withReuseIdentifier: "upcomingCell", for: indexPath) as? UpcomingCollectionViewCell {
             cell.titleLabel.text = upComingMovies[indexPath.item].title
-            cell.dateLabel.text = upComingMovies[indexPath.item].releaseDate
+            cell.dateLabel.text = String(upComingMovies[indexPath.item].releaseDate.prefix(4))
             cell.imageup.image = UIImage(named: upComingMovies[indexPath.item].poster)
             return cell
             
