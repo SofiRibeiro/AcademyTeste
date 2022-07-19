@@ -33,15 +33,18 @@
                                                                 <rect key="frame" x="16" y="0.0" width="382" height="50"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Popular" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57R-5R-Sdo">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="314" height="50"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="311.5" height="50"/>
                                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                                         <color key="textColor" red="1" green="0.50196078430000002" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pB-pt-fVI">
-                                                                        <rect key="frame" x="315" y="0.0" width="67" height="50"/>
+                                                                        <rect key="frame" x="312.5" y="0.0" width="69.5" height="50"/>
+                                                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <state key="normal" title="Button"/>
-                                                                        <buttonConfiguration key="configuration" style="plain" title="See all"/>
+                                                                        <buttonConfiguration key="configuration" style="plain" title="See all">
+                                                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="14"/>
+                                                                        </buttonConfiguration>
                                                                     </button>
                                                                 </subviews>
                                                             </stackView>
@@ -122,15 +125,18 @@
                                                                 <rect key="frame" x="16" y="0.0" width="382" height="50"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Now Playing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QG-Yu-ncJ">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="314" height="50"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="311.5" height="50"/>
                                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                                         <color key="textColor" red="1" green="0.50196078430000002" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SHN-pG-A1c">
-                                                                        <rect key="frame" x="315" y="0.0" width="67" height="50"/>
+                                                                        <rect key="frame" x="312.5" y="0.0" width="69.5" height="50"/>
+                                                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <state key="normal" title="Button"/>
-                                                                        <buttonConfiguration key="configuration" style="plain" title="See all"/>
+                                                                        <buttonConfiguration key="configuration" style="plain" title="See all">
+                                                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="14"/>
+                                                                        </buttonConfiguration>
                                                                     </button>
                                                                 </subviews>
                                                             </stackView>
@@ -222,15 +228,18 @@
                                                                 <rect key="frame" x="16" y="0.0" width="382" height="50"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Upcoming" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AmF-o0-xvk">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="314" height="50"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="311.5" height="50"/>
                                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                                         <color key="textColor" red="1" green="0.50196078430000002" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="70p-TW-ndv">
-                                                                        <rect key="frame" x="315" y="0.0" width="67" height="50"/>
+                                                                        <rect key="frame" x="312.5" y="0.0" width="69.5" height="50"/>
+                                                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <state key="normal" title="Button"/>
-                                                                        <buttonConfiguration key="configuration" style="plain" title="See all"/>
+                                                                        <buttonConfiguration key="configuration" style="plain" title="See all">
+                                                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="14"/>
+                                                                        </buttonConfiguration>
                                                                     </button>
                                                                 </subviews>
                                                             </stackView>
@@ -530,6 +539,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="1" green="0.50196078430000002" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBar>
                     <connections>
                         <segue destination="mvE-4t-pDh" kind="relationship" relationship="viewControllers" id="BqK-ev-OBJ"/>
@@ -548,6 +558,14 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="sJ9-yV-Fwz">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.63529411759999999" green="0.89411764709999997" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <color key="textColor" red="1" green="0.50196078430000002" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
