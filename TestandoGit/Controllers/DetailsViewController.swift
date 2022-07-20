@@ -16,6 +16,7 @@ class DetailsViewController: UIViewController {
     @IBOutlet var poster: UIImageView!
     @IBOutlet var ratingLabel: UILabel!
     @IBOutlet var overviewLabel: UILabel!
+    @IBOutlet var genresLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,6 +45,7 @@ class DetailsViewController: UIViewController {
         // poster.image = UIImage(named: movie.posterPath)
         ratingLabel.text = "Rating: \(movie.voteAverage)/10"
         overviewLabel.text = movie.overview
+        genresLabel.text = movie.genres?.joined(separator: ", ")
         
     }
     

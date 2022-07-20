@@ -28,6 +28,7 @@
 		30B984292873777D00BF496B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B984272873777D00BF496B /* Main.storyboard */; };
 		30B9842B2873778100BF496B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B9842A2873778100BF496B /* Assets.xcassets */; };
 		30B9842E2873778100BF496B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B9842C2873778100BF496B /* LaunchScreen.storyboard */; };
+		30FCF54E28873BF200C11B0C /* SeeAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF54D28873BF200C11B0C /* SeeAllViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		30B9842A2873778100BF496B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30B9842D2873778100BF496B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30B9842F2873778100BF496B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FCF54D28873BF200C11B0C /* SeeAllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				306CD2B2287E145100961C3C /* FeaturedViewControllers+UICollectionViewDataSource.swift */,
 				306CD2B4287F3F0400961C3C /* DetailsViewController.swift */,
 				306CD2B6287F47E300961C3C /* FeaturedViewcontroller+UICollectionViewDelegate.swift */,
+				30FCF54D28873BF200C11B0C /* SeeAllViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				306CD2B0287DF5BE00961C3C /* Movie+Popular.swift in Sources */,
 				306CD29C287C984600961C3C /* NowPlayingCollectionViewCell.swift in Sources */,
 				306CD2B1287DF5BE00961C3C /* Movie+NowPlaying.swift in Sources */,
+				30FCF54E28873BF200C11B0C /* SeeAllViewController.swift in Sources */,
 				306CD2AD287DF5BE00961C3C /* Movie+TrendingToday.swift in Sources */,
 				306CD29A287C980900961C3C /* PopularCollectionViewCell.swift in Sources */,
 				306CD2AF287DF5BE00961C3C /* Movie+TrendingThisWeek.swift in Sources */,
